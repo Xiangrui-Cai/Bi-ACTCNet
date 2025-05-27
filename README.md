@@ -42,3 +42,6 @@ Physics-informed attention temporal convolutional network for EEG-based motor im
 
 Feature Fusion Based on Mutual-Cross-Attention Mechanism for EEG Emotion Recognition.
 
+# Details
+
+
