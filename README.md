@@ -14,5 +14,5 @@ Author: Lei Cao, Xiangrui Cai*, Yiling Dong.
 
 5. To verify the effectiveness and generalization of the model, we tested it on the 2-class classification of the BCI Competition IV 2a dataset, achieving good results.
    
-![项目实例](./images/example.png)
+![Model](./Model.png)
 
