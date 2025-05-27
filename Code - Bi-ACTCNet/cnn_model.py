@@ -91,9 +91,7 @@ def EEGNet_ECA(input_layer, F1=8, kernLength=64, D=2, Chans=64, dropout=0.25):
     block1 = Conv2D(F1, (kernLength, 1), padding='same', data_format='channels_last', use_bias=False)(input_layer)
     block1 = BatchNormalization(axis=-1)(block1)
     block1 = etca_attention(block1)
-    transposed_tensor = tf.transpose(block1, perm=[0, 2, 1, 3])
-    reshaped_tensor = tf.reshape(transposed_tensor, (-1, 64, 640 * 8))
-    reshaped_tensor = tf.reduce_sum(reshaped_tensor, axis=2)  # 对最后一个维度求和 -> (None, 59)
+
     block2 = DepthwiseConv2D((1, Chans), use_bias=False,
                              depth_multiplier=D,
                              data_format='channels_last',
@@ -109,7 +107,7 @@ def EEGNet_ECA(input_layer, F1=8, kernLength=64, D=2, Chans=64, dropout=0.25):
     block3 = Activation('elu')(block3)
     block3 = AveragePooling2D((4, 1), data_format='channels_last')(block3)
     block3 = Dropout(dropout)(block3)
-    return block3, reshaped_tensor
+    return block3
 
 def Bi_ACTCNET(n_classes, Chans=64, Samples=1500, layers=2, kernel_s=4, filt=16, dropout=0.2, activation='elu', F1=8, D=2,
              kernLength=32, dropout_eeg=0.2):
