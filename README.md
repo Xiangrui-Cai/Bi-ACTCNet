@@ -43,5 +43,5 @@ Physics-informed attention temporal convolutional network for EEG-based motor im
 Feature Fusion Based on Mutual-Cross-Attention Mechanism for EEG Emotion Recognition.
 
 # Details
-
+The data loading script, training code, and model weights for the BCI Competition IV Dataset 1 are provided in preprocess_bci41.py, main_bci41.py, and results_41_fold12, respectively. Readers who are interested can reproduce the results using the model weights included in the results_41_fold12 file.
 
