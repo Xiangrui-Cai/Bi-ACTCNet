@@ -1,0 +1,50 @@
+
+Training on subject  1
+Subject: 1   Train no. 1   Time: 3.2 m   Test_acc: 0.9300   Test_kappa: 0.8600
+----------
+Subject: 1   best_run: 1   Time: 3.2 m   acc: 0.9300   avg_acc: 0.9300 +- 0.0000   kappa: 0.8600   avg_kappa: 0.8600 +- 0.0000
+----------
+
+Training on subject  2
+Subject: 2   Train no. 1   Time: 2.6 m   Test_acc: 0.9900   Test_kappa: 0.9800
+----------
+Subject: 2   best_run: 1   Time: 2.6 m   acc: 0.9900   avg_acc: 0.9900 +- 0.0000   kappa: 0.9800   avg_kappa: 0.9800 +- 0.0000
+----------
+
+Training on subject  3
+Subject: 3   Train no. 1   Time: 2.5 m   Test_acc: 0.9800   Test_kappa: 0.9600
+----------
+Subject: 3   best_run: 1   Time: 2.5 m   acc: 0.9800   avg_acc: 0.9800 +- 0.0000   kappa: 0.9600   avg_kappa: 0.9600 +- 0.0000
+----------
+
+Training on subject  4
+Subject: 4   Train no. 1   Time: 2.5 m   Test_acc: 0.8700   Test_kappa: 0.7400
+----------
+Subject: 4   best_run: 1   Time: 2.5 m   acc: 0.8700   avg_acc: 0.8700 +- 0.0000   kappa: 0.7400   avg_kappa: 0.7400 +- 0.0000
+----------
+
+Training on subject  5
+Subject: 5   Train no. 1   Time: 2.5 m   Test_acc: 0.9500   Test_kappa: 0.9000
+----------
+Subject: 5   best_run: 1   Time: 2.5 m   acc: 0.9500   avg_acc: 0.9500 +- 0.0000   kappa: 0.9000   avg_kappa: 0.9000 +- 0.0000
+----------
+
+Training on subject  6
+Subject: 6   Train no. 1   Time: 2.5 m   Test_acc: 0.9900   Test_kappa: 0.9800
+----------
+Subject: 6   best_run: 1   Time: 2.5 m   acc: 0.9900   avg_acc: 0.9900 +- 0.0000   kappa: 0.9800   avg_kappa: 0.9800 +- 0.0000
+----------
+
+Training on subject  7
+Subject: 7   Train no. 1   Time: 2.5 m   Test_acc: 0.9600   Test_kappa: 0.9200
+----------
+Subject: 7   best_run: 1   Time: 2.5 m   acc: 0.9600   avg_acc: 0.9600 +- 0.0000   kappa: 0.9200   avg_kappa: 0.9200 +- 0.0000
+----------
+
+Training on subject  8
+Subject: 8   Train no. 1   Time: 2.5 m   Test_acc: 0.9100   Test_kappa: 0.8200
+----------
+Subject: 8   best_run: 1   Time: 2.5 m   acc: 0.9100   avg_acc: 0.9100 +- 0.0000   kappa: 0.8200   avg_kappa: 0.8200 +- 0.0000
+----------
+
+Time: 0.4 h
