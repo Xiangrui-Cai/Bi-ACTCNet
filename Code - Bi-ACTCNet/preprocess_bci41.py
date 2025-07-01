@@ -19,15 +19,14 @@ def preprocess_norm(eeg_data):
 
     return eeg_data
 
+# 带通
 def preprocess_filt(data, low_cut=0.1, high_cut=40, fs=500, order=4):
     nyq = 0.5 * fs
     low = low_cut / nyq
     high = high_cut / nyq
     b, a = butter(order, [low, high], btype='bandpass')
-    # 确保 padlen 是基于时间维度（最后一个）
-    padlen = data.shape[-1] // 3
-    # 指定滤波轴为 -1（即最后一个维度）
-    proced = filtfilt(b, a, data, axis=-1, padlen=padlen)
+    padlen = len(data) // 3
+    proced = signal.filtfilt(b, a, data,padlen=padlen)
     return proced
 
 def preprocess_bsfilt(data, low_cut=49, high_cut=51, fs=500):
