@@ -33,7 +33,9 @@ We implemented our Bi-ACTCNet model using Python 3.8 and the TensorFlow library 
 · SciPy == 1.9.3
 
 # References
-We will update the reference list once the paper is accepted for publication.
+The article has currently been accepted by the IEEE Internet of Things Journal.
+
+If you have any questions about our paper or code, please feel free to contact us at: 202330310112@stu.shmtu.edu.cn
 
 # Other
 We would like to express our sincere gratitude to the following papers for providing open-source code, which has been of great significance to our research:
