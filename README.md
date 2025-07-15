@@ -16,10 +16,6 @@ Author: Lei Cao, Xiangrui Cai*, Yiling Dong.
    
 ![Model](./Model.png)
 
-Additionally, we believe that the parameters of this model are highly competitive when compared to those of many other models. As shown in the figure below, we can consider it a lightweight model.
-
-![Parameter](./Parameter.png)
-
 # About Datasets
 We used four datasets: the Motor Attempt or Resting State Dataset, BCI Competition IV Dataset 1, Physionet Dataset, and BCI Competition IV 2a Dataset. Among them, the Motor Attempt or Resting State Dataset is a private dataset, while the other three are publicly available datasets that can be downloaded and used as input to the model after preprocessing.
 
